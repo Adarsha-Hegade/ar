@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fan Management</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+    .fan-list, .fan-form {
+      margin-bottom: 20px;
+    }
+    .fan-list table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .fan-list th, .fan-list td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    .fan-list th {
+      background-color: #f9f9f9;
+      text-align: left;
+    }
+    .fan-form input, .fan-form select {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .fan-form button {
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .fan-form button:hover {
+      background-color: #0056b3;
+    }
+    .fan-form button.delete {
+      background-color: #dc3545;
+    }
+    .fan-form button.delete:hover {
+      background-color: #a71d2a;
+    }
+    .file-input {
+      margin-bottom: 20px;
+    }
+    .file-input label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .file-input input {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .error-message {
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    .save-download-buttons {
+      margin-top: 20px;
+      text-align: right;
+    }
+    .save-download-buttons button {
+      margin-left: 10px;
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .save-download-buttons button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Fan Management</h1>
+
+    <!-- Load JSON File -->
+    <div class="file-input">
+      <label for="jsonFile">Load JSON File</label>
+      <input type="file" id="jsonFile" accept=".json">
+    </div>
+
+    <!-- Fan List -->
+    <div class="fan-list">
+      <h2>Fan List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Model Name</th>
+            <th>Fan Size</th>
+            <th>Finish</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="fanTableBody">
+          <!-- Fan rows will be dynamically inserted here -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Fan Form -->
+    <div class="fan-form">
+      <h2>Add/Edit Fan</h2>
+      <form id="fanForm">
+        <input type="text" id="urlCode" name="urlCode" placeholder="URL Code" required>
+        <input type="text" id="modelName" name="modelName" placeholder="Model Name" required>
+        <input type="text" id="fanSize" name="fanSize" placeholder="Fan Size" required>
+        <input type="text" id="fanFinish" name="fanFinish" placeholder="Fan Finish" required>
+        <input type="text" id="variations" name="variations" placeholder="Variations (comma-separated)">
+        <input type="text" id="related" name="related" placeholder="Related (comma-separated)">
+        <input type="text" id="category" name="category" placeholder="Category" required>
+        <button type="submit">Save</button>
+        <button type="button" class="delete" id="deleteButton" style="display:none;">Delete</button>
+      </form>
+      <div class="error-message" id="errorMessage" style="display:none;"></div>
+    </div>
+
+    <!-- Save and Download Buttons -->
+    <div class="save-download-buttons">
+      <button onclick="saveToLocalStorage()">Save to Local Storage</button>
+      <button onclick="downloadJson()">Download JSON</button>
+    </div>
+  </div>
+
+  <script>
+    let fansData = [];
+
+    const fanTableBody = document.getElementById('fanTableBody');
+    const fanForm = document.getElementById('fanForm');
+    const deleteButton = document.getElementById('deleteButton');
+    const jsonFileInput = document.getElementById('jsonFile');
+    const errorMessage = document.getElementById('errorMessage');
+    let currentUrlCode = null;
+
+    // Render the fan list
+    function renderFanList() {
+      fanTableBody.innerHTML = '';
+      fansData.forEach(fan => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${fan.modelName}</td>
+          <td>${fan.fanSize}</td>
+          <td>${fan.fanFinish}</td>
+          <td>${fan.variations}</td>
+          <td>${fan.related}</td>
+          <td>${fan.category}</td>
+
+          <td>
+            <button onclick="editFan('${fan.urlCode}')">Edit</button>
+            <button onclick="deleteFan('${fan.urlCode}')">Delete</button>
+            <button onclick="duplicateFan('${fan.urlCode}')">Duplicate</button>
+          </td>
+        `;
+        fanTableBody.appendChild(row);
+      });
+    }
+
+    // Edit a fan
+    function editFan(urlCode) {
+      const fan = fansData.find(f => f.urlCode === urlCode);
+      if (fan) {
+        currentUrlCode = urlCode;
+        document.getElementById('urlCode').value = fan.urlCode;
+        document.getElementById('modelName').value = fan.modelName;
+        document.getElementById('fanSize').value = fan.fanSize;
+        document.getElementById('fanFinish').value = fan.fanFinish;
+        document.getElementById('variations').value = fan.variations.join(', ');
+        document.getElementById('related').value = fan.related.join(', ');
+        document.getElementById('category').value = fan.category;
+        deleteButton.style.display = 'inline';
+      }
+    }
+
+    // Delete a fan
+    function deleteFan(urlCode) {
+      fansData = fansData.filter(f => f.urlCode !== urlCode);
+      renderFanList();
+    }
+
+    // Duplicate a fan
+    function duplicateFan(urlCode) {
+      const fan = fansData.find(f => f.urlCode === urlCode);
+      if (fan) {
+        const duplicatedFan = {
+          ...fan,
+          urlCode: `${fan.urlCode}-copy` // Append "-copy" to the urlCode
+        };
+        fansData.push(duplicatedFan);
+        renderFanList();
+      }
+    }
+
+    // Check if urlCode is unique
+    function isUrlCodeUnique(urlCode, currentUrlCode) {
+      return !fansData.some(fan => fan.urlCode === urlCode && fan.urlCode !== currentUrlCode);
+    }
+
+    // Handle form submission
+    fanForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      const formData = new FormData(fanForm);
+      const urlCode = formData.get('urlCode');
+
+      // Validate urlCode uniqueness
+      if (!isUrlCodeUnique(urlCode, currentUrlCode)) {
+        errorMessage.textContent = 'URL Code already exists. Please use a different one.';
+        errorMessage.style.display = 'block';
+        return;
+      }
+
+      const newFan = {
+        urlCode: urlCode,
+        modelName: formData.get('modelName'),
+        fanSize: formData.get('fanSize'),
+        fanFinish: formData.get('fanFinish'),
+        variations: formData.get('variations').split(',').map(v => v.trim()).filter(v => v),
+        related: formData.get('related').split(',').map(r => r.trim()).filter(r => r),
+        category: formData.get('category')
+      };
+
+      if (currentUrlCode) {
+        // Update existing fan
+        fansData = fansData.map(f => f.urlCode === currentUrlCode ? newFan : f);
+        currentUrlCode = null;
+        deleteButton.style.display = 'none';
+      } else {
+        // Add new fan
+        fansData.push(newFan);
+      }
+
+      fanForm.reset();
+      errorMessage.style.display = 'none';
+      renderFanList();
+    });
+
+    // Load JSON file
+    jsonFileInput.addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            fansData = JSON.parse(e.target.result);
+            renderFanList();
+          } catch (error) {
+            alert('Invalid JSON file!');
+          }
+        };
+        reader.readAsText(file);
+      }
+    });
+
+    // Save to Local Storage
+    function saveToLocalStorage() {
+      localStorage.setItem('fansData', JSON.stringify(fansData));
+      alert('Data saved to local storage!');
+    }
+
+    // Download JSON
+    function downloadJson() {
+      const jsonString = JSON.stringify(fansData, null, 2);
+      const blob = new Blob([jsonString], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'fans.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // Load from Local Storage on page load
+    function loadFromLocalStorage() {
+      const savedData = localStorage.getItem('fansData');
+      if (savedData) {
+        fansData = JSON.parse(savedData);
+        renderFanList();
+      }
+    }
+
+    // Initialize the page
+    loadFromLocalStorage();
+  </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fan Image Checker</title>
+</head>
+<body>
+
+<h1>Fan Image Checker</h1>
+
+<input type="file" id="jsonFile" accept=".json">
+<input type="file" id="imageFolder" webkitdirectory directory multiple>
+
+<button onclick="checkImages()">Check Images</button>
+
+<div id="result"></div>
+
+<script>
+async function checkImages() {
+    const jsonFile = document.getElementById('jsonFile').files[0];
+    const imageFiles = document.getElementById('imageFolder').files;
+    const resultDiv = document.getElementById('result');
+    resultDiv.innerHTML = ""; // Clear previous results
+
+    if (!jsonFile || imageFiles.length === 0) {
+        resultDiv.textContent = "Please select a JSON file and an image folder.";
+        return;
+    }
+
+    try {
+        const jsonContent = await readJsonFile(jsonFile);
+        const missingFans = findMissingFans(jsonContent, imageFiles);
+
+        if (missingFans.length > 0) {
+            const missingJson = JSON.stringify(missingFans, null, 2);
+            resultDiv.innerHTML = `<p style="color:red;">Missing Images Found!</p><pre>${missingJson}</pre>`;
+
+            // Create a download link for the missing JSON
+            const blob = new Blob([missingJson], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'missing_fans.json';
+            link.textContent = 'Download missing_fans.json';
+            resultDiv.appendChild(link);
+
+        } else {
+            resultDiv.textContent = "All images are present!";
+        }
+    } catch (error) {
+        resultDiv.textContent = "Error processing files: " + error.message;
+        console.error(error);
+    }
+}
+
+async function readJsonFile(file) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+            try {
+                resolve(JSON.parse(event.target.result));
+            } catch (parseError) {
+                reject(new Error("Invalid JSON file: " + parseError.message));
+            }
+        };
+        reader.onerror = (error) => reject(error);
+        reader.readAsText(file);
+    });
+}
+
+
+function findMissingFans(fansJson, imageFiles) {
+    const existingImageNames = new Set();
+    for (const file of imageFiles) {
+        if (file.name.toLowerCase().endsWith(".png")) {
+            existingImageNames.add(file.name.slice(0, -4)); // Remove ".png"
+        }
+    }
+
+    const missingFans = [];
+    for (const fan of fansJson) {
+        if (fan.urlCode && !existingImageNames.has(fan.urlCode)) {
+            missingFans.push(fan);
+        }
+    }
+    return missingFans;
+}
+</script>
+
+</body>
+</html>

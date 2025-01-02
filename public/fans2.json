@@ -1,0 +1,40 @@
+
+   [
+     {
+      "urlCode": "dual",
+      "modelName": "Dual Blade Modern Fan",
+      "fanSize": "52 inches",
+      "fanFinish": "Natural Wood",
+      "variations": "dual-white",
+      "related": "single",
+      "category": "Modern Wooden Fans"
+     },
+     {
+      "variations": "dual-black",
+      "related": "triple"
+     },
+     {
+      "related": "crystal-chandelier"
+     },
+     {
+      "urlCode": "single",
+      "modelName": "Single Blade Contemporary Fan",
+      "fanSize": "48 inches",
+      "fanFinish": "Natural Wood",
+      "variations": "single-white",
+      "related": "dual",
+      "category": "Modern Wooden Fans"
+     },
+     {
+      "variations": "single-black",
+      "related": "triple"
+     },
+     {
+      "urlCode": "crystal-chandelier",
+      "modelName": "Crystal Crown Chandelier Fan",
+      "fanSize": "56 inches",
+      "fanFinish": "Crystal and Chrome",
+      "related": "crystal-modern",
+      "category": "Crystal Fans"
+     }  ]
+    

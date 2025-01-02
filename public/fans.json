@@ -1,0 +1,3482 @@
+[
+  {
+    "urlCode": "innovation",
+    "modelName": "Innovation – 29″ Bladeless Ceiling Fan",
+    "fanSize": "29 Inches",
+    "fanFinish": "Beechwood Finish",
+    "variations": [
+      "innovation-blk"
+    ],
+    "related": [
+      "nova",
+      "nova-mini",
+      "zephyre"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "nissar",
+    "modelName": "Nissar – 86″ inch Large Twin Ceiling Fan",
+    "fanSize": "2 x 36 inches",
+    "fanFinish": "Ashwood Finish Special Wooden Blades",
+    "variations": [],
+    "related": [
+      "dual",
+      "trio-gm",
+      "artic-wall",
+      "artic",
+      "opus-wall",
+      "opus"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "dual",
+    "modelName": "Dual – 52″ Twin Modern Wooden Decorative Fan",
+    "fanSize": "2 x 52 Inches",
+    "fanFinish": "Handcrafted Wooden Blades",
+    "variations": [],
+    "related": [
+      "nissar",
+      "artic-wall",
+      "trio-gm"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "trio-gm",
+    "modelName": "Trio – 38″ With 360° Rotating Ceiling Fan",
+    "fanSize": "38 Inches",
+    "fanFinish": "Gunmetal & Darkwood",
+    "variations": [
+      "trio-ss"
+    ],
+    "related": [
+      "dual",
+      "tornado",
+      "opus",
+      "opus-wall"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "matrix-sg",
+    "modelName": "Matrix – Bladeless Tower Fan with 2 Stage Air Purifier",
+    "fanSize": "42 Inch Height",
+    "fanFinish": "Silver Grey",
+    "variations": [
+      "matrix-gg"
+    ],
+    "related": [
+      "desky",
+      "standie",
+      "eiffel-blk",
+      "eiffel-wooden",
+      "nova",
+      "nova-mini",
+      "innovation"
+    ],
+    "category": "Bladeless Fans"
+  },
+  {
+    "urlCode": "desky",
+    "modelName": "Desky Bladeless Fan with Remote",
+    "fanSize": "24 Inch Height",
+    "fanFinish": "White",
+    "variations": [],
+    "related": [
+      "matrix-gg",
+      "standie",
+      "eiffel-blk",
+      "eiffel-wooden",
+      "nova",
+      "nova-mini",
+      "innovation"
+    ],
+    "category": "Bladeless Fans"
+  },
+  {
+    "urlCode": "matrix-gg",
+    "modelName": "Matrix – Bladeless Tower Fan with 2 Stage Air Purifier",
+    "fanSize": "42 Inch Height",
+    "fanFinish": "Gun Grey & Silver Finish",
+    "variations": [
+      "matrix-sg"
+    ],
+    "related": [
+      "desky",
+      "standie",
+      "eiffel-blk",
+      "eiffel-wooden",
+      "nova",
+      "nova-mini",
+      "innovation"
+    ],
+    "category": "Bladeless Fans"
+  },
+  {
+    "urlCode": "trio-ss",
+    "modelName": "Trio – 38″ With 360° Rotating Ceiling Fan",
+    "fanSize": "38 Inches",
+    "fanFinish": "Chrome & Lightwood",
+    "variations": [
+      "trio-gm"
+    ],
+    "related": [
+      "dual",
+      "tornado",
+      "opus",
+      "opus-wall"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "innovation-blk",
+    "modelName": "Innovation – 29″ Bladeless Ceiling Fan",
+    "fanSize": "29 Inches",
+    "fanFinish": "Dark Coffee Finish",
+    "variations": [
+      "innovation"
+    ],
+    "related": [
+      "nova",
+      "nova-mini",
+      "zephyre"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "nova",
+    "modelName": "Nova – Bladeless Ceiling Fan with Dimmable LED",
+    "fanSize": "1090 x 690mm",
+    "fanFinish": "White",
+    "variations": [
+      "nova-mini"
+    ],
+    "related": [
+      "innovation",
+      "innovation-blk"
+    ],
+    "category": "Bladeless Fans"
+  },
+  {
+    "urlCode": "nova-mini",
+    "modelName": "Nova mini – Sleek Bladeless Ceiling Fan with Dimmable LED Light",
+    "fanSize": "490 x 490mm",
+    "fanFinish": "White",
+    "variations": [
+      "nova"
+    ],
+    "related": [
+      "innovation",
+      "innovation-blk"
+    ],
+    "category": "Bladeless Fans"
+  },
+  {
+    "urlCode": "opus-wall",
+    "modelName": "Opus wall -34″ Wooden Wall Fan with Remote",
+    "fanSize": "34 Inches",
+    "fanFinish": "Darkwood",
+    "variations": [
+      "opus-wall-pinewood"
+    ],
+    "related": [
+      "artic-wall",
+      "classic-wall",
+      "volley-plus",
+      "volley-wt",
+      "volley-blk",
+      "wendy-ss"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "artic-wall",
+    "modelName": "Artic Wall – 52″ Modern Wall Fan",
+    "fanSize": "52 inches",
+    "fanFinish": "Darkwood Hand-Crafted Wooden Blades",
+    "variations": [
+      "artic-wall-pinewood"
+    ],
+    "related": [
+      "opus-wall",
+      "classic-wall",
+      "volley-plus",
+      "volley-wt",
+      "volley-blk",
+      "wendy-sg"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "opus-wall-pinewood",
+    "modelName": "Opus wall -34″ Wooden Wall Fan with Remote",
+    "fanSize": "34 Inches",
+    "fanFinish": "Pinewood",
+    "variations": [
+      "opus-wall"
+    ],
+    "related": [
+      "artic-wall",
+      "classic-wall",
+      "volley-plus",
+      "volley-wt",
+      "volley-blk",
+      "wendy-sg"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "artic-wall-pinewood",
+    "modelName": "Artic Wall – 52″ Modern Wall Fan",
+    "fanSize": "52 Inches",
+    "fanFinish": "Pinewood Hand-Crafted Wooden Blades",
+    "variations": [
+      "artic-wall"
+    ],
+    "related": [
+      "opus-wall",
+      "classic-wall",
+      "volley-plus",
+      "volley-wt",
+      "volley-blk",
+      "wendy-sg"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "classic-wall",
+    "modelName": "Classic Wall - 52\" Wall Fan with Remote",
+    "fanSize": "52 Inches",
+    "fanFinish": "Rattan Texture with Brown Finish",
+    "variations": [
+      "classic-wall-dark"
+    ],
+    "related": [
+      "opus-wall",
+      "artic-wall",
+      "volley-plus",
+      "volley-wt",
+      "volley-blk",
+      "wendy-sg"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "classic-wall-dark",
+    "modelName": "Classic Wall - 52\" Wall Fan with Remote",
+    "fanSize": "52 Inches",
+    "fanFinish": "Rattan Texture with Dark Coffee Finish",
+    "variations": [
+      "classic-wall"
+    ],
+    "related": [
+      "opus-wall",
+      "artic-wall",
+      "volley-plus",
+      "volley-wt",
+      "volley-blk",
+      "wendy-sg"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "wendy-sg",
+    "modelName": "Wendy – 15″ Versatile 360° Rotating Wall and Ceiling Mount Fan",
+    "fanSize": "15 Inch",
+    "fanFinish": "Sand Gold",
+    "variations": [
+      "wendy-ss",
+      "wendy-blk"
+    ],
+    "related": [
+      "volley-plus",
+      "volley-wt",
+      "volley-blk",
+      "opus-wall",
+      "artic-wall"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "wendy-ss",
+    "modelName": "Wendy – 15″ Versatile 360° Rotating Wall and Ceiling Mount Fan",
+    "fanSize": "15 Inch",
+    "fanFinish": "Chrome & Grey",
+    "variations": [
+      "wendy-sg",
+      "wendy-blk"
+    ],
+    "related": [
+      "volley-plus",
+      "volley-wt",
+      "volley-blk",
+      "opus-wall",
+      "artic-wall"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "wendy-blk",
+    "modelName": "Wendy – 15″ Versatile 360° Rotating Wall and Ceiling Mount Fan",
+    "fanSize": "15 Inch",
+    "fanFinish": "Matte Coffee / Dark Grey",
+    "variations": [
+      "wendy-ss",
+      "wendy-sg"
+    ],
+    "related": [
+      "volley-plus",
+      "volley-wt",
+      "volley-blk",
+      "opus-wall",
+      "artic-wall"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "volley-blk",
+    "modelName": "Volley – 15” Oscillating Wall and Ceiling Fan with Remote and Timer",
+    "fanSize": "15 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "volley-blk",
+      "volley-wt"
+    ],
+    "related": [
+      "volley-plus",
+      "windsor",
+      "volley-wt",
+      "opus-wall",
+      "artic-wall"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "volley-wt",
+    "modelName": "Volley – 15” Oscillating Wall and Ceiling Fan with Remote and Timer",
+    "fanSize": "15 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "volley-blk",
+      "volley-wt"
+    ],
+    "related": [
+      "volley-plus",
+      "windsor",
+      "volley-wt",
+      "opus-wall",
+      "artic-wall"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "volley-plus",
+    "modelName": "Volley Plus – 16″ Ceiling / Wooden Wall Fan with Remote",
+    "fanSize": "16 inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "volley-plus"
+    ],
+    "related": [
+      "volley-wt",
+      "windsor",
+      "volley-blk",
+      "opus-wall",
+      "artic-wall"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "zephyre",
+    "modelName": "Zephyre – 23″ Modern Ceiling Fan Rotating Ceiling Fan with Light",
+    "fanSize": "20 inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "zephyre-wood"
+    ],
+    "related": [
+      "cindrella-rg",
+      "saffron-fg",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "zephyre-wood",
+    "modelName": "Zephyre – 23″ Modern Ceiling Fan Rotating Ceiling Fan with Light",
+    "fanSize": "20 inch",
+    "fanFinish": "Wooden Finish",
+    "variations": [
+      "zephyre"
+    ],
+    "related": [
+      "cindrella-rg",
+      "saffron-fg",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "aviator",
+    "modelName": "Aviator – 36″ Helicopter Ceiling Fan with LED Light for Kids Rooms",
+    "fanSize": "36 inch",
+    "fanFinish": "Sky Blue",
+    "variations": [
+      "aviator"
+    ],
+    "related": [
+      "galaxy",
+      "rainbow",
+      "finch",
+      "kidzy"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "freesia-sg",
+    "modelName": "Freesia – 36″ Ceiling Fan with LED Light and Remote Control Multiple Speeds",
+    "fanSize": "36 inch",
+    "fanFinish": "Sand Gold",
+    "variations": [
+      "freesia-sg"
+    ],
+    "related": [
+      "bronze",
+      "sparkle",
+      "regal"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "luster-gd",
+    "modelName": "Luster – 22″ Compact Chandelier Fan for Modern Homes",
+    "fanSize": "22 inch",
+    "fanFinish": "Gold",
+    "variations": [
+      "luster-gd"
+    ],
+    "related": [
+      "cindrella-rg",
+      "saffron-fg",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "cindrella-rg",
+    "modelName": "Cindrella – 20″ Designer Ceiling Fan with LED Rings and Remote Control",
+    "fanSize": "20 inch",
+    "fanFinish": "French Gold",
+    "variations": [
+      "cindrella-rg"
+    ],
+    "related": [
+      "luster-gd",
+      "saffron-fg",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "saffron-rg",
+    "modelName": "Saffron – 24″ Modern Chandelier Fan with Remote",
+    "fanSize": "24 inch",
+    "fanFinish": "French Gold / Rose Gold",
+    "variations": [
+      "saffron-fg"
+    ],
+    "related": [
+      "cindrella-rg",
+      "luster-gd",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "saffron-fg",
+    "modelName": "Saffron – 24″ Modern Chandelier Fan with Remote",
+    "fanSize": "24 inch",
+    "fanFinish": "French Gold / Rose Gold",
+    "variations": [
+      "saffron-rg"
+    ],
+    "related": [
+      "cindrella-rg",
+      "luster-gd",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "flora-rg",
+    "modelName": "Flora – 16″ Designer Chandelier Fan with LED Light for Small Spaces",
+    "fanSize": "20 inch",
+    "fanFinish": "Rose Gold",
+    "variations": [
+      "flora-db" ,"flora-fg"
+    ],
+    "related": [
+      "saffron-fg",
+      "luster-gd",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },  {
+    "urlCode": "flora-fg",
+    "modelName": "Flora – 16″ Designer Chandelier Fan with LED Light for Small Spaces",
+    "fanSize": "20 inch",
+    "fanFinish": "French Gold",
+    "variations": [
+      "flora-db", "flora-rg"
+    ],
+    "related": [
+      "saffron-fg",
+      "luster-gd",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "flora-db",
+    "modelName": "Flora – 16″ Designer Chandelier Fan with LED Light for Small Spaces",
+    "fanSize": "20 inch",
+    "fanFinish": "Dark Brown",
+    "variations": [
+      "flora-rg", "flora-db"
+    ],
+    "related": [
+      "saffron-fg",
+      "luster-gd",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "rosy-rg",
+    "modelName": "Rosy – 24″ Small Chandelier Fan with Remote Control",
+    "fanSize": "24 inch",
+    "fanFinish": "Rose Gold / French Gold",
+    "variations": [
+      "rosy-fg"
+    ],
+    "related": [
+      "cindrella-rg",
+      "luster-gd",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "rosy-fg",
+    "modelName": "Rosy – 24″ Small Chandelier Fan with Remote Control",
+    "fanSize": "24 inch",
+    "fanFinish": "Rose Gold / French Gold",
+    "variations": [
+      "rosy-rg"
+    ],
+    "related": [
+      "cindrella-rg",
+      "luster-gd",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "florence-rg",
+    "modelName": "Florence – 24″ Glamorous Chandelier Fan with Remote Control",
+    "fanSize": "24 inch",
+    "fanFinish": "Rose Gold / French Gold",
+    "variations": [
+      "florence-fg"
+    ],
+    "related": [
+      "saffron-fg",
+      "luster-gd",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "florence-fg",
+    "modelName": "Florence – 24″ Glamorous Chandelier Fan with Remote Control",
+    "fanSize": "24 inch",
+    "fanFinish": "Rose Gold / French Gold",
+    "variations": [
+      "florence-rg"
+    ],
+    "related": [
+      "saffron-fg",
+      "luster-gd",
+      "flora-db",
+      "rosy-rg"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "isla-hp",
+    "modelName": "Isla – 52″ Vintage Classic Tiffany Design Ceiling Fan",
+    "fanSize": "52 inch",
+    "fanFinish": "Hand Painted",
+    "variations": [
+      "isla-hp"
+    ],
+    "related": [
+      "valencia-ab",
+      "canberry",
+      "vintage-ab",
+      "europia"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "valencia-ab",
+    "modelName": "Valencia – 52″ Vintage Classic Fan with Special Wooden Blades",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass / Coffee Brown",
+    "variations": [
+      "valencia-cb"
+    ],
+    "related": [
+      "isla-hp",
+      "canberry",
+      "vintage-ab",
+      "europia"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "valencia-cb",
+    "modelName": "Valencia – 52″ Vintage Classic Fan with Special Wooden Blades",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass / Coffee Brown",
+    "variations": [
+      "valencia-ab"
+    ],
+    "related": [
+      "isla-hp",
+      "canberry",
+      "vintage-ab",
+      "europia"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "canberry",
+    "modelName": "Canberry – 53” Wooden Ceiling Fan with Remote Control",
+    "fanSize": "53 inch",
+    "fanFinish": "Spray Painted",
+    "variations": [
+      
+    ],
+    "related": [
+      "valencia-ab",
+      
+      "vintage-ab",
+      "europia"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "cherry-sp",
+    "modelName": "Cherry – 53” Wooden Ceiling Fan with Remote Control",
+    "fanSize": "53 inch",
+    "fanFinish": "Spray Painted",
+    "variations": [
+      
+    ],
+    "related": [
+      "canberry",
+      "vintage-ab",
+      "europia"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "vintage-ab",
+    "modelName": "Vintage – 52″ Wooden Ceiling Fan Antique Brass with Reversible Blade",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass",
+    "variations": [
+      "vintage-ab"
+    ],
+    "related": [
+      "cherry-sp",
+      "canberry",
+      "isla-hp",
+      "europia"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "tornado",
+    "modelName": "Tornado – 52″ Modern Single Blade Wooden Ceiling Fan | Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Golden Oak Wood ",
+    "variations": [],
+    "related": [
+      "vintage-ab",
+      "canberry",
+      "isla-hp",
+      "europia"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "propeller-blk",
+    "modelName": "Propeller – 52″ Modern Ceiling Fan with Unique Design | Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "propeller-blk"
+    ],
+    "related": [
+      "whisper",
+      "beechwood-ss",
+      "caramel-aw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "stallion",
+    "modelName": "Stallion – 56″ Modern Wooden Ceiling Fan with Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+    ],
+    "related": [
+      "propeller-blk",
+      "beechwood-ss",
+      "caramel-aw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "oakwood-dw",
+    "modelName": "Oakwood – 54″ Modern Wooden Ceiling Fan with Remote Control",
+    "fanSize": "54 inch",
+    "fanFinish": "Oil Rubbed Bronze Finish",
+    "variations": [],
+    "related": [
+    "stallion",
+      "propeller-blk",
+      "caramel-aw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "reva-sw",
+    "modelName": "Reva – 52″ Classic Ceiling Fan with Powerful Airflow | Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "reva-sw"
+    ],
+    "related": [
+      "oakwood-dw",
+      "propeller-blk",
+      "caramel-aw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "beechwood-ss",
+    "modelName": "Beechwood – 54″ Modern Ceiling Fan with Wooden Blades | Remote Control",
+    "fanSize": "54 inch",
+    "fanFinish": "Stainless Steel",
+    "variations": [
+      "beechwood-ss"
+    ],
+    "related": [
+      "reva-sw",
+      "propeller-blk",
+      "caramel-aw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "elite-dw",
+    "modelName": "Elite – 52″ Hugger Ceiling Fan with Dark Wooden Blades",
+    "fanSize": "52 inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "elite-dw"
+    ],
+    "related": [
+      "reva-sw",
+      "propeller-blk",
+      "beechwood-ss",
+      "delta-go"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "cosmo",
+    "modelName": "Cosmo – 52″ Wooden Hugger Fan for Low Ceilings | Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Matte Gold ",
+    "variations": [
+
+    ],
+    "related": [
+      "millenium-blk",
+      "sleekair-wt",
+      "lilliput-light",
+      "maestro-sg"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "oakwoodplus-dw",
+    "modelName": "Oakwood Plus – 54″ Modern Ceiling Fan with Solid Wood Blades and LED Light",
+    "fanSize": "54 inch",
+    "fanFinish": "Oil Rubbed Bronze Finish",
+    "variations": [
+      "oakwoodplus-dw"
+    ],
+    "related": [
+      "infinity",
+      "luker-wnt",
+      "reva-sw",
+      "propeller-blk"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "caramel-aw",
+    "modelName": "Caramel – 56” Modern Wooden Ceiling Fan with Remote Control",
+    "fanSize": "56 inch",
+    "fanFinish": "Golden Oak / Ashwood",
+    "variations": [
+      "caramel-go"
+    ],
+    "related": [
+      "reva-sw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "caramel-go",
+    "modelName": "Caramel – 56” Modern Wooden Ceiling Fan with Remote Control",
+    "fanSize": "56 inch",
+    "fanFinish": "Golden Oak / Ashwood",
+    "variations": [
+      "caramel-aw"
+    ],
+    "related": [
+      "reva-sw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "oak-pw",
+    "modelName": "Oak- 52″ Stylish Wooden Ceiling Fan with Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Matte Bronze / Matte Black",
+    "variations": [
+      "oak-do"
+    ],
+    "related": [
+      "caramel-aw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "oak-do",
+    "modelName": "Oak- 52″ Stylish Wooden Ceiling Fan with Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Matte Bronze / Matte Black",
+    "variations": [
+      "oak-pw"
+    ],
+    "related": [
+      "caramel-go",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "velocity-rw",
+    "modelName": "Velocity – 48″ Modern Special Wooden Ceiling Fan with Remote Control",
+    "fanSize": "48 inch",
+    "fanFinish": "Brass / Gunmetal",
+    "variations": [
+      "velocity-blk"
+    ],
+    "related": [
+      "oak-pw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "velocity-blk",
+    "modelName": "Velocity – 48″ Modern Special Wooden Ceiling Fan with Remote Control",
+    "fanSize": "48 inch",
+    "fanFinish": "Brass / Gunmetal",
+    "variations": [
+      "velocity-rw"
+    ],
+    "related": [
+      "oak-pw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "airwind-rw",
+    "modelName": "Airwind – 52″ Inch Ceiling Fan with LED Light for Living Room",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass / Chrome / Matte Black / Matte White",
+    "variations": [
+      "airwind-bw",
+      "airwind-blk",
+      "airwind-slvr",
+      "airwind-rdw",
+      "airwind-wnt",
+      "airwind-wt"
+    ],
+    "related": [
+      "velocity-rw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "airwind-bw",
+    "modelName": "Airwind – 52″ Inch Ceiling Fan with LED Light for Living Room",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass / Chrome / Matte Black / Matte White",
+    "variations": [
+      "airwind-rw",
+      "airwind-blk",
+      "airwind-slvr",
+      "airwind-rdw",
+      "airwind-wnt",
+      "airwind-wt"
+    ],
+    "related": [
+      "velocity-rw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "airwind-blk",
+    "modelName": "Airwind – 52″ Inch Ceiling Fan with LED Light for Living Room",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass / Chrome / Matte Black / Matte White",
+    "variations": [
+      "airwind-rw",
+      "airwind-bw",
+      "airwind-slvr",
+      "airwind-rdw",
+      "airwind-wnt",
+      "airwind-wt"
+    ],
+    "related": [
+      "velocity-rw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "airwind-slvr",
+    "modelName": "Airwind – 52″ Inch Ceiling Fan with LED Light for Living Room",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass / Chrome / Matte Black / Matte White",
+    "variations": [
+      "airwind-rw",
+      "airwind-bw",
+      "airwind-blk",
+      "airwind-rdw",
+      "airwind-wnt",
+      "airwind-wt"
+    ],
+    "related": [
+      "velocity-rw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "airwind-rdw",
+    "modelName": "Airwind – 52″ Inch Ceiling Fan with LED Light for Living Room",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass / Chrome / Matte Black / Matte White",
+    "variations": [
+      "airwind-rw",
+      "airwind-bw",
+      "airwind-blk",
+      "airwind-slvr",
+      "airwind-wnt",
+      "airwind-wt"
+    ],
+    "related": [
+      "velocity-rw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "airwind-wnt",
+    "modelName": "Airwind – 52″ Inch Ceiling Fan with LED Light for Living Room",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass / Chrome / Matte Black / Matte White",
+    "variations": [
+      "airwind-rw",
+      "airwind-bw",
+      "airwind-blk",
+      "airwind-slvr",
+      "airwind-rdw",
+      "airwind-wt"
+    ],
+    "related": [
+      "velocity-rw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "airwind-wt",
+    "modelName": "Airwind – 52″ Inch Ceiling Fan with LED Light for Living Room",
+    "fanSize": "52 inch",
+    "fanFinish": "Antique Brass / Chrome / Matte Black / Matte White",
+    "variations": [
+      "airwind-rw",
+      "airwind-bw",
+      "airwind-blk",
+      "airwind-slvr",
+      "airwind-rdw",
+      "airwind-wnt"
+    ],
+    "related": [
+      "velocity-rw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "delta-go",
+    "modelName": "Delta – 52″ Stylish Ceiling Fan with Wooden Blades | Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "delta-go"
+    ],
+    "related": [
+      "airwind-bw",
+      "oak-pw",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "walnut",
+    "modelName": "Walnut – 48″ Wooden Ceiling Fan with Antique Brass Finish | Remote Control",
+    "fanSize": "48 inch",
+    "fanFinish": "Antique Brass",
+    "variations": [
+     
+    ],
+    "related": [
+      "cherry-sp",
+      "canberry",
+      "isla-hp",
+      "europia"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "trendy-dw",
+    "modelName": "Trendy – 52″ Modern Ceiling Fan with Natural Wooden Blades | Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Copper Black",
+    "variations": [
+      "trendy-dw"
+    ],
+    "related": [
+      "airwind-rdw",
+      "beechwood-ss",
+      "caramel-aw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "walnutplus-sw",
+    "modelName": "Walnut Plus – 48″ Modern Ceiling Fan with Walnut Special Wooden Blades",
+    "fanSize": "48 inch",
+    "fanFinish": "Antique Brass",
+    "variations": [
+      "walnutplus-sw"
+    ],
+    "related": [
+      "caramel-aw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "luxair-go",
+    "modelName": "Luxair – 50″ Modern Wooden Ceiling Fan with LED Light | Remote Control",
+    "fanSize": "50 inch",
+    "fanFinish": "Stainless Steel",
+    "variations": [
+      "luxair-go"
+    ],
+    "related": [
+      "airwind-wt",
+      "beechwood-ss",
+      "caramel-aw",
+      "walnutplus-sw"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "liberty-ss",
+    "modelName": "Liberty – 52″ Ceiling Fan with Special Wooden Blades and Control with Remote",
+    "fanSize": "52 inch",
+    "fanFinish": "Stainless Steel",
+    "variations": [
+      
+    ],
+    "related": [
+      "luxair-go",
+      "canberry",
+      "isla-hp",
+      "europia"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "italio-slvr",
+    "modelName": "Italio – 52″ Stainless Silver Ceiling Fan with Special Wooden Blades",
+    "fanSize": "52 inch",
+    "fanFinish": "Stainless Silver / White",
+    "variations": [
+      "italio-wt"
+    ],
+    "related": [
+      "desire",
+      "airforce-bw",
+      "amber-blk",
+      "breeza"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "arizona-bw",
+    "modelName": "Arizona – 52″ Modern Design Ceiling Fan with Wooden Blades",
+    "fanSize": "52 inch",
+    "fanFinish": "Stainless Steel",
+    "variations": [
+      "arizona-bw"
+    ],
+    "related": [
+      "caramel-aw",
+      "propeller-blk",
+      "elite-dw",
+      "delta-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "italioplus-slvr",
+    "modelName": "Italio Plus – 52″ Modern Ceiling Fan with Light and Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Stainless Silver/ White",
+    "variations": [
+      "italioplus-wt"
+    ],
+    "related": [
+      "italio-slvr",
+      "airforce-bw",
+      "-blk",
+      "breeza"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "italioplus-wt",
+    "modelName": "Italio Plus – 52″ Modern Ceiling Fan with Light and Remote Control",
+    "fanSize": "52 inch",
+    "fanFinish": "Stainless Silver/ White",
+    "variations": [
+      "italioplus-slvr"
+    ],
+    "related": [
+      "italio-slvr",
+      "airforce-bw",
+      "amber-blk",
+      "breeza"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "italio-wt",
+    "modelName": "Italio – 52″ Stainless Silver Ceiling Fan with Special Wooden Blades",
+    "fanSize": "52 inch",
+    "fanFinish": "Stainless Silver / White",
+    "variations": [
+      "italio-slvr"
+    ],
+    "related": [
+      "desire",
+      "airforce-bw",
+      "amber-blk",
+      "breeza"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "euro",
+    "modelName": "Euro 48\" Wooden Blade Fan",
+    "fanSize": "48 Inches",
+    "fanFinish": "Antique Brass - Walnut",
+    "variations": [],
+    "related": [
+      "italio-slvr",
+      "europia",
+      "arizona-bw",
+      "luxair-go"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "bolero",
+    "modelName": "Bolero – 78/108″ High-Performance Large Ceiling Fan",
+    "fanSize": "78 Inch / 108 Inch",
+    "fanFinish": "Dark Coffee",
+    "variations": [],
+    "related": [
+      "spider",
+      "radar-blk",
+      "amber-wt",
+      "desire"
+    ],
+    "category": "Colossal Fans"
+  },
+  {
+    "urlCode": "whisper",
+    "modelName": "Whisper - 52\" Modern Wooden Fan with Remote",
+    "fanSize": "52 inches",
+    "fanFinish": "Wooden Finish",
+    "variations": [],
+    "related": [
+      "airforce",
+      "amber-wt",
+      "infinity",
+      "sensation-walnut",
+      "falcon-wooden"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "falcon-black",
+    "modelName": "Falcon – 56″ Designer Fan With Light",
+    "fanSize": "56\"",
+    "fanFinish": "White",
+    "variations": [
+      "falcon-wooden",
+      "falcon-white"
+    ],
+    "related": [
+      "airforce",
+      "amber-wt",
+      "infinity",
+      "sensation-walnut",
+      "desire"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "falcon-wooden",
+    "modelName": "Falcon – 56″ Designer Fan With Light",
+    "fanSize": "56\"",
+    "fanFinish": "Wooden Finish",
+    "variations": [
+      "falcon-black",
+      "falcon-white"
+    ],
+    "related": [
+      "airforce",
+      "amber-wt",
+      "infinity",
+      "sensation-walnut",
+      "desire"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "falcon-white",
+    "modelName": "Falcon – 56″ Designer Fan With Light",
+    "fanSize": "56\"",
+    "fanFinish": "White Finish",
+    "variations": [
+      "falcon-black",
+      "falcon-wooden"
+    ],
+    "related": [
+      "airforce",
+      "amber-wt",
+      "infinity",
+      "sensation-walnut",
+      "desire"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "sensation-carbon",
+    "modelName": "Sensation – 56″ Modern Ceiling Fan ",
+    "fanSize": "56 Inch",
+    "fanFinish": "Carbon Fiber Finish",
+    "variations": [
+      "sensation-wt",
+      "sensation-blk",
+      "sensation-wooden",
+      "sensation-walnut"
+    ],
+    "related": [
+      "airforce",
+      "amber-wt",
+      "infinity",
+      "desire",
+      "falcon-black"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "sensation-wt",
+    "modelName": "Sensation – 56″ Modern Ceiling Fan ",
+    "fanSize": "56 Inch",
+    "fanFinish": "White Finish",
+    "variations": [
+      "sensation-carbon",
+      "sensation-blk",
+      "sensation-wooden",
+      "sensation-walnut"
+    ],
+    "related": [
+      "airforce",
+      "amber-wt",
+      "infinity",
+      "desire",
+      "falcon-white"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "sensation-blk",
+    "modelName": "Sensation – 56″ Modern Ceiling Fan ",
+    "fanSize": "56 Inch",
+    "fanFinish": "Black Finish",
+    "variations": [
+      "sensation-carbon",
+      "sensation-wt",
+      "sensation-wooden",
+      "sensation-walnut"
+    ],
+    "related": [
+      "airforce",
+      "amber-wt",
+      "infinity",
+      "desire",
+      "falcon-black"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "sensation-wooden",
+    "modelName": "Sensation – 56″ Modern Ceiling Fan ",
+    "fanSize": "56 Inch",
+    "fanFinish": "Lightwood Finish",
+    "variations": [
+      "sensation-carbon",
+      "sensation-wt",
+      "sensation-blk",
+      "sensation-walnut"
+    ],
+    "related": [
+      "airforce",
+      "amber-wt",
+      "infinity",
+      "desire",
+      "falcon-wooden"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "sensation-walnut",
+    "modelName": "Sensation – 56″ Modern Ceiling Fan ",
+    "fanSize": "56 Inch",
+    "fanFinish": "Walnut Finish",
+    "variations": [
+      "sensation-carbon",
+      "sensation-wt",
+      "sensation-blk",
+      "sensation-wooden"
+    ],
+    "related": [
+      "airforce",
+      "amber-wt",
+      "infinity",
+      "desire",
+      "falcon-wooden"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "sleekair-wt",
+    "modelName": "Sleekair – 42/52″ Modern Hugger Fan",
+    "fanSize": "42/52 Inches",
+    "fanFinish": "Matte White",
+    "variations": [
+      "sleekair-blk",
+      "sleekair-plus-blk",
+      "sleekair-plus-wt"
+    ],
+    "related": [
+      "cosmo",
+      "maestro-sg",
+      "lilliput-light",
+      "millenium-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "sleekair-blk",
+    "modelName": "Sleekair – 42/52″ Modern Hugger Fan",
+    "fanSize": "42/52 Inches",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "sleekair-wt",
+      "sleekair-plus-blk",
+      "sleekair-plus-wt"
+    ],
+    "related": [
+      "cosmo",
+      "maestro-sg",
+      "lilliput-light",
+      "millenium-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "sleekair-plus-blk",
+    "modelName": "Sleekair – 42/52″ Modern Hugger Fan",
+    "fanSize": "42/52 Inches",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "sleekair-wt",
+      "sleekair-blk",
+      "sleekair-plus-wt"
+    ],
+    "related": [
+      "cosmo",
+      "maestro-sg",
+      "lilliput-light",
+      "millenium-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "sleekair-plus-wt",
+    "modelName": "Sleekair – 42/52″ Modern Hugger Fan",
+    "fanSize": "42/52 Inches",
+    "fanFinish": "Matte White",
+    "variations": [
+      "sleekair-wt",
+      "sleekair-blk",
+      "sleekair-plus-blk"
+    ],
+    "related": [
+      "cosmo",
+      "maestro-sg",
+      "lilliput-light",
+      "millenium-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "lilliput-light",
+    "modelName": "Lilliput - 48\" Modern Hugger Fan",
+    "fanSize": "48 Inches",
+    "fanFinish": "Lightwood Blades",
+    "variations": [
+      "lilliput-dark"
+    ],
+    "related": [
+      "cosmo",
+      "maestro-sg",
+      "millenium-wt",
+      "sleekair-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "lilliput-dark",
+    "modelName": "Lilliput - 48\" Modern Hugger Fan",
+    "fanSize": "48 Inches",
+    "fanFinish": "Darkwood Blades",
+    "variations": [
+      "lilliput-light"
+    ],
+    "related": [
+      "cosmo",
+      "maestro-sg",
+      "millenium-wt",
+      "sleekair-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "maestro-sg",
+    "modelName": "Maestro - 47\" Modern Hugger Fan",
+    "fanSize": "47 Inches",
+    "fanFinish": "Sandgold Finish",
+    "variations": [
+      "maestro-wt",
+      "maestro-blk",
+      "maestro-wooden"
+    ],
+    "related": [
+      "cosmo",
+      "lilliput-dark",
+      "millenium-wt",
+      "sleekair-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "maestro-wt",
+    "modelName": "Maestro - 47\" Modern Hugger Fan",
+    "fanSize": "47 Inches",
+    "fanFinish": "Matte White",
+    "variations": [
+      "maestro-sg",
+      "maestro-blk",
+      "maestro-wooden"
+    ],
+    "related": [
+      "cosmo",
+      "lilliput-dark",
+      "millenium-wt",
+      "sleekair-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "maestro-blk",
+    "modelName": "Maestro - 47\" Modern Hugger Fan",
+    "fanSize": "47 Inches",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "maestro-sg",
+      "maestro-blk",
+      "maestro-wooden"
+    ],
+    "related": [
+      "cosmo",
+      "lilliput-dark",
+      "millenium-wt",
+      "sleekair-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "maestro-wooden",
+    "modelName": "Maestro - 47\" Modern Hugger Fan",
+    "fanSize": "47 Inches",
+    "fanFinish": "Wooden Finish",
+    "variations": [
+      "maestro-sg",
+      "maestro-blk",
+      "maestro-wt"
+    ],
+    "related": [
+      "cosmo",
+      "lilliput-dark",
+      "millenium-wt",
+      "sleekair-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "radar-wt",
+    "modelName": "Radar – 66″ Modern DC Motor Ceiling Fan",
+    "fanSize": "66 Inches",
+    "fanFinish": "Matte White",
+    "variations": [
+      "radar-blk",
+      "radar-chrome",
+      "radar-wooden",
+      "radar-ashwood"
+    ],
+    "related": [
+      "columbia-wt",
+      "luker-walnut",
+      "sensation-wt",
+      "spectra-wt"
+    ],
+    "category": "Colossal Fans"
+  },
+  {
+    "urlCode": "radar-blk",
+    "modelName": "Radar – 66″ Modern DC Motor Ceiling Fan",
+    "fanSize": "66 Inches",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "radar-wt",
+      "radar-chrome",
+      "radar-wooden",
+      "radar-ashwood"
+    ],
+    "related": [
+      "bolero",
+      "columbia-blk",
+      "luker-blk",
+      "sensation-blk",
+      "spectra-blk"
+    ],
+    "category": "Colossal Fans"
+  },
+  {
+    "urlCode": "radar-chrome",
+    "modelName": "Radar – 66″ Modern DC Motor Ceiling Fan",
+    "fanSize": "66 Inches",
+    "fanFinish": "Matte Chrome",
+    "variations": [
+      "radar-wt",
+      "radar-blk",
+      "radar-wooden",
+      "radar-ashwood"
+    ],
+    "related": [
+      "spider",
+      "columbia-wt",
+      "luker-blk",
+      "sensation-blk",
+      "spectra-blk"
+    ],
+    "category": "Colossal Fans"
+  },
+  {
+    "urlCode": "radar-wooden",
+    "modelName": "Radar – 66″ Modern DC Motor Ceiling Fan",
+    "fanSize": "66 Inches",
+    "fanFinish": "Walnut Finish",
+    "variations": [
+      "radar-wt",
+      "radar-blk",
+      "radar-chrome",
+      "radar-ashwood"
+    ],
+    "related": [
+      "spider",
+      "columbia-wt",
+      "sensation-wooden",
+      "spectra-wooden",
+      "luker-blk"
+    ],
+    "category": "Colossal Fans"
+  },
+  {
+    "urlCode": "radar-ashwood",
+    "modelName": "Radar – 66″ Modern DC Motor Ceiling Fan",
+    "fanSize": "66 Inches",
+    "fanFinish": "Ashwood Finish",
+    "variations": [
+      "radar-wt",
+      "radar-blk",
+      "radar-chrome",
+      "radar-wooden"
+    ],
+    "related": [
+      "spider",
+      "columbia-wt",
+      "sensation-wooden",
+      "spectra-wooden",
+      "luker-blk"
+    ],
+    "category": "Colossal Fans"
+  },
+  {
+    "urlCode": "harrier-wt",
+    "modelName": "Harrier – 50″ Quiet and Efficient Ceiling Fan",
+    "fanSize": "50 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "harrier-blk"
+    ],
+    "related": [
+      "columbia-wt",
+      "airforce-wt",
+      "spectra-wt",
+      "desire"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "harrier-blk",
+    "modelName": "Harrier – 50″ Quiet and Efficient Ceiling Fan",
+    "fanSize": "50 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "harrier-wt"
+    ],
+    "related": [
+      "columbia-blk",
+      "airforce-blk",
+      "spectra-blk",
+      "desire"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "millenium-wt",
+    "modelName": "Millennium – 50″ Modern Hugger Fan",
+    "fanSize": "50\"",
+    "fanFinish": "Matte White",
+    "variations": [
+      "millenium-blk"
+    ],
+    "related": [
+      "cosmo",
+      "lilliput-dark",
+      "millenium-wt",
+      "sleekair-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "millenium-blk",
+    "modelName": "Millennium – 50″ Modern Hugger Fan",
+    "fanSize": "50\"",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "millenium-wt"
+    ],
+    "related": [
+      "cosmo",
+      "lilliput-dark",
+      "sleekair-wt"
+    ],
+    "category": "Hugger Ceiling Fans"
+  },
+  {
+    "urlCode": "luker-blk",
+    "modelName": "Luker – 56″ Modern Ceiling Fan",
+    "fanSize": "56 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "luker-walnut",
+      "luker-beechwood",
+      "luker-wt"
+    ],
+    "related": [
+      "airforce-ebony",
+      "harrier-wt",
+      "falcon-black",
+      "spectra-blk",
+      "venice"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "luker-walnut",
+    "modelName": "Luker – 56″ Modern Ceiling Fan",
+    "fanSize": "56 Inch",
+    "fanFinish": "Walnut Finish",
+    "variations": [
+      "luker-blk",
+      "luker-beechwood",
+      "luker-wt"
+    ],
+    "related": [
+      "spectra-wooden",
+      "airforce-ebony",
+      "harrier-blk",
+      "falcon-white",
+      "spectra-wooden",
+      "venice"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "luker-beechwood",
+    "modelName": "Luker – 56″ Modern Ceiling Fan",
+    "fanSize": "56 Inch",
+    "fanFinish": "Beechwood Finish",
+    "variations": [
+      "luker-blk",
+      "luker-walnut",
+      "luker-wt"
+    ],
+    "related": [
+      "spectra-wooden",
+      "airforce-ebony",
+      "harrier-blk",
+      "falcon-white",
+      "spectra-wooden",
+      "venice"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "luker-wt",
+    "modelName": "Luker – 56″ Modern Ceiling Fan",
+    "fanSize": "56 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "luker-blk",
+      "luker-walnut",
+      "luker-beechwood"
+    ],
+    "related": [
+      "spectra-wooden",
+      "airforce-ebony",
+      "harrier-blk",
+      "falcon-white",
+      "spectra-wooden",
+      "venice"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "classic-light",
+    "modelName": "Classic -52″ Ceiling Fan with Pull Chain",
+    "fanSize": "52 inches",
+    "fanFinish": "Natural Rattan",
+    "variations": [
+      "classic-dark",
+      "classic-wall",
+      "classic-wall-dark"
+    ],
+    "related": [
+      "valencia-ab",
+      "daisy-wooden",
+      "isla-hp",
+      "cherry-sp"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "classic-dark",
+    "modelName": "Classic -52″ Ceiling Fan with Pull Chain",
+    "fanSize": "52 inches",
+    "fanFinish": "Dark Brown Rattan",
+    "variations": [
+      "classic-light",
+      "classic-wall",
+      "classic-wall-dark"
+    ],
+    "related": [
+      "valencia-ab",
+      "isla-hp",
+      "cherry-sp",
+      "daisy-wooden"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "airforce",
+    "modelName": "Airforce – 50″ Modern Elegance With Sleek Design",
+    "fanSize": "50 Inches",
+    "fanFinish": "Walnut",
+    "variations": [
+      "airforce-ebony",
+      "airforce-wt",
+      "airforce-bw",
+      "airforce-blk"
+    ],
+    "related": [
+      "luker-walnut",
+      "sensation-walnut",
+      "whisper",
+      "reva-sw"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "airforce-ebony",
+    "modelName": "Airforce – 50″ Modern Elegance With Sleek Design",
+    "fanSize": "50 Inches",
+    "fanFinish": "Dark Ebony",
+    "variations": [
+      "airforce",
+      "airforce-wt",
+      "airforce-bw",
+      "airforce-blk"
+    ],
+    "related": [
+      "luker-walnut",
+      "sensation-walnut",
+      "whisper",
+      "reva-sw"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "airforce-wt",
+    "modelName": "Airforce – 50″ Modern Elegance With Sleek Design",
+    "fanSize": "50 Inches",
+    "fanFinish": "Matte White",
+    "variations": [
+      "airforce",
+      "airforce-ebony",
+      "airforce-bw",
+      "airforce-blk"
+    ],
+    "related": [
+      "luker-walnut",
+      "sensation-walnut",
+      "whisper",
+      "reva-sw"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "airforce-bw",
+    "modelName": "Airforce – 50″ Modern Elegance With Sleek Design",
+    "fanSize": "50 Inches",
+    "fanFinish": "Beechwood",
+    "variations": [
+      "airforce",
+      "airforce-ebony",
+      "airforce-wt",
+      "airforce-blk"
+    ],
+    "related": [
+      "luker-walnut",
+      "sensation-walnut",
+      "whisper",
+      "reva-sw"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "airforce-blk",
+    "modelName": "Airforce – 50″ Modern Elegance With Sleek Design",
+    "fanSize": "50 Inches",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "airforce",
+      "airforce-ebony",
+      "airforce-wt",
+      "airforce-bw"
+    ],
+    "related": [
+      "luker-blk",
+      "sensation-blk",
+      "whisper",
+      "reva-sw"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "spectra-blk",
+    "modelName": "Spectra – 56″ Fan with Elegant Design",
+    "fanSize": "56 Inches",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "spectra-wt",
+      "spectra-wooden"
+    ],
+    "related": [
+      "harrier-blk",
+      "amber-blk",
+      "columbia-blk",
+      "falcon-white"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "spectra-wt",
+    "modelName": "Spectra – 56″ Fan with Elegant Design",
+    "fanSize": "56 Inches",
+    "fanFinish": "Matte White",
+    "variations": [
+      "spectra-blk",
+      "spectra-wooden"
+    ],
+    "related": [
+      "harrier-wt",
+      "amber-wt",
+      "columbia-blk",
+      "falcon-black"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "spectra-wooden",
+    "modelName": "Spectra – 56″ Fan with Elegant Design",
+    "fanSize": "56 Inches",
+    "fanFinish": "Wooden Finish",
+    "variations": [
+      "spectra-blk",
+      "spectra-wt"
+    ],
+    "related": [
+      "falcon-wooden",
+      "harrier-wt",
+      "amber-wt",
+      "columbia-blk"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "desire",
+    "modelName": "Desire – 52″ High Speed Fan with Light",
+    "fanSize": "52 Inches",
+    "fanFinish": "Matte White",
+    "variations": [],
+    "related": [
+      "amber-wt",
+      "falcon-black",
+      "harrier-blk",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "venice",
+    "modelName": "Venice – 52″ Modern DC Motor Ceiling Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [],
+    "related": [
+      "elegant-blk",
+      "amber-blk",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "amber-wt",
+    "modelName": "Amber – 52″ High-Speed Ceiling Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "amber-blk"
+    ],
+    "related": [
+      "falcon-white",
+      "harrier-blk",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "amber-blk",
+    "modelName": "Amber – 52″ High-Speed Ceiling Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "amber-wt"
+    ],
+    "related": [
+      "falcon-black",
+      "harrier-blk",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "elegant-wt",
+    "modelName": "Elegant – 52″ Modern Ceiling Fan",
+    "fanSize": "52 inches",
+    "fanFinish": "Chrome and Matte White",
+    "variations": [
+      "elegant-blk"
+    ],
+    "related": [
+      "falcon-white",
+      "harrier-blk",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "elegant-blk",
+    "modelName": "Elegant – 52″ Modern Ceiling Fan",
+    "fanSize": "52 inches",
+    "fanFinish": "Chrome and Matte Black",
+    "variations": [
+      "elegant-wt"
+    ],
+    "related": [
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "infinity",
+    "modelName": "Infinity – 52″ Modern Wooden Finish Fan",
+    "fanSize": "52 inches",
+    "fanFinish": "Wooden Finish",
+    "variations": [],
+    "related": [
+      "elegant-wt",
+      "elegant-blk",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "spider",
+    "modelName": "Spider – 78″ Colossal Modern Ceiling Fan",
+    "fanSize": "78 Inches",
+    "fanFinish": "Matte White",
+    "variations": [],
+    "related": [
+      "bolero",
+      "radar-blk",
+      "columbia-wt",
+      "spectra-wt"
+    ],
+    "category": "Colossal Fans"
+  },
+  {
+    "urlCode": "finch",
+    "modelName": "Finch – 36″ Small Kids Designer Fan",
+    "fanSize": "36 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [],
+    "related": [
+      "aster",
+      "aviator",
+      "galaxy",
+      "rainbow",
+      "finch",
+      "kidzy"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "aster",
+    "modelName": "Aster – 46″ Modern Ceiling Fan",
+    "fanSize": "46 Inch",
+    "fanFinish": "Matte White",
+    "variations": [],
+    "related": [
+      "finch",
+      "aviator",
+      "galaxy",
+      "rainbow",
+      "finch",
+      "kidzy"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "twister-wt",
+    "modelName": "Twister – 50″ Modern Ceiling Fan",
+    "fanSize": "50 inches",
+    "fanFinish": "Matte White",
+    "variations": [
+      "twister-wooden"
+    ],
+    "related": [
+      "infinity",
+      "elegant-blk",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "twister-wooden",
+    "modelName": "Twister – 50″ Modern Ceiling Fan",
+    "fanSize": "50 inches",
+    "fanFinish": "Wooden Finish",
+    "variations": [
+      "twister-wt"
+    ],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "coasta-bw-56",
+    "modelName": "Coasta – Stylish and Quiet Ceiling Fan",
+    "fanSize": "56 Inches",
+    "fanFinish": "Beechwood Finish 56 inches",
+    "variations": [
+      "coasta-bw-36",
+      "coasta-wt-36"
+    ],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "coasta-bw-36",
+    "modelName": "Coasta – Stylish and Quiet Ceiling Fan",
+    "fanSize": "36 Inches",
+    "fanFinish": "Beechwood Finish 36 Inches",
+    "variations": [
+      "coasta-bw-56",
+      "coasta-wt-36",
+      "coasta-plus-56",
+      "coasta-plus-36"
+    ],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "coasta-wt-36",
+    "modelName": "Coasta – Stylish and Quiet Ceiling Fan",
+    "fanSize": "36 Inches",
+    "fanFinish": "Matte White 36 Inches",
+    "variations": [
+      "coasta-bw-56",
+      "coasta-bw-36",
+      "coasta-plus-56",
+      "coasta-plus-36"
+    ],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "twister-plus-wooden",
+    "modelName": "Twister plus – 50″ Modern Ceiling Fan",
+    "fanSize": "50 inches",
+    "fanFinish": "Wooden",
+    "variations": [
+      "twister-plus-wt"
+    ],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "twister-plus-wt",
+    "modelName": "Twister plus – 50″ Modern Ceiling Fan",
+    "fanSize": "50 inches",
+    "fanFinish": "Matte White",
+    "variations": [
+      "twister-plus-wooden"
+    ],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "coasta-plus-36",
+    "modelName": "Coasta – Stylish and Quiet Ceiling Fan",
+    "fanSize": "36 Inches",
+    "fanFinish": "Beechwood 36 Inches",
+    "variations": [
+      "coasta-bw-56",
+      "coasta-bw-36",
+      "coasta-plus-56"
+    ],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "coasta-plus-56",
+    "modelName": "Coasta – Stylish and Quiet Ceiling Fan",
+    "fanSize": "56 Inches",
+    "fanFinish": "Beechwood 56 Inches",
+    "variations": [
+      "coasta-bw-56",
+      "coasta-bw-36",
+      "coasta-plus-36"
+    ],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "enigma-blk",
+    "modelName": "Enigma – 30″ Stylish Small Ceiling Fan",
+    "fanSize": "30 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "enigma-wt",
+      "enigma-wooden"
+    ],
+    "related": [
+      "zephyre",
+      "coasta-bw-36",
+      "minizo-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "enigma-wt",
+    "modelName": "Enigma – 30″ Stylish Small Ceiling Fan",
+    "fanSize": "30 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "enigma-blk",
+      "enigma-wooden"
+    ],
+    "related": [
+      "zephyre",
+      "coasta-bw-36",
+      "minizo-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "enigma-wooden",
+    "modelName": "Enigma – 30″ Stylish Small Ceiling Fan",
+    "fanSize": "30 Inch",
+    "fanFinish": "Wooden",
+    "variations": [
+      "enigma-blk",
+      "enigma-wt"
+    ],
+    "related": [
+      "zephyre",
+      "coasta-bw-36",
+      "minizo-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "minizo-wt",
+    "modelName": "Minizo – 28″ Modern DC Motor Ceiling Fan",
+    "fanSize": "28 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "minizo-wooden"
+    ],
+    "related": [
+      "zephyre",
+      "coasta-bw-36",
+      "enigma-wooden"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "minizo-wooden",
+    "modelName": "Minizo – 28″ Modern DC Motor Ceiling Fan",
+    "fanSize": "28 Inch",
+    "fanFinish": "Wooden Finish",
+    "variations": [
+      "minizo-wt"
+    ],
+    "related": [
+      "zephyre",
+      "coasta-bw-36",
+      "enigma-wooden"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "kidzy",
+    "modelName": "Kidzy – 36″ Colorful Kids Ceiling Fan",
+    "fanSize": "36\"",
+    "fanFinish": "Lemon Yellow, Red and Dark Blue",
+    "variations": [],
+    "related": [
+      "aster",
+      "aviator",
+      "galaxy",
+      "rainbow",
+      "finch"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "galaxy",
+    "modelName": "Galaxy – 42″ Colorful Kids Ceiling Fan",
+    "fanSize": "42\"",
+    "fanFinish": "Red Yellow Dark Blue",
+    "variations": [],
+    "related": [
+      "aster",
+      "aviator",
+      "galaxy",
+      "rainbow",
+      "finch",
+      "kidzy"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "amor",
+    "modelName": "Amor – 42″ Stylish Antique Brass Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Antique Brass",
+    "variations": [],
+    "related": [
+      "europia",
+      "euro",
+      "rio"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "daisy-wooden",
+    "modelName": "Daisy - 52\" Leaf Design Ceiling Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Wooden Finish",
+    "variations": [
+      "daisy-wt"
+    ],
+    "related": [
+      "classic-dark",
+      "classic-light",
+      "valencia-ab"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },{
+    "urlCode": "daisy-wt",
+    "modelName": "Daisy - 52\" Leaf Design Ceiling Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "daisy-wooden"
+    ],
+    "related": [
+      "classic-dark",
+      "classic-light",
+      "valencia-ab"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "iris",
+    "modelName": "Iris - 52\" Transparent Blade Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Transparent ABS Blades",
+    "variations": [],
+    "related": [
+      "windmill-blue",
+      "galaxy",
+      "kidzy",
+      "rainbow",
+      "windmill-wt"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "windmill-wt",
+    "modelName": "Windmill - 52\" Transparent Blade Kids Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "White Finish",
+    "variations": [
+      "windmill-blue"
+    ],
+    "related": [
+      "galaxy",
+      "kidzy",
+      "rainbow",
+      "aviator"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "windmill-blue",
+    "modelName": "Windmill - 52\" Transparent Blade Kids Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Transparent Blue",
+    "variations": [
+      "windmill-wt"
+    ],
+    "related": [
+      "galaxy",
+      "kidzy",
+      "rainbow",
+      "aviator"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "splash",
+    "modelName": "Splash – 56″ Modern Fan with LED",
+    "fanSize": "52 Inch",
+    "fanFinish": "White Finish",
+    "variations": [],
+    "related": [
+      "venice",
+      "spectra-wt",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "europia",
+    "modelName": "Europia – 52″ Vintage Fan with Brass Finish",
+    "fanSize": "52 Inch",
+    "fanFinish": "Brass Finish",
+    "variations": [],
+    "related": [
+      "rio",
+      "amor",
+      "euro",
+      "walnut",
+      "valencia-ab"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "rio",
+    "modelName": "Rio –  52″ Vintage Fan with Brass Finish",
+    "fanSize": "52 Inch",
+    "fanFinish": "Brass Finish",
+    "variations": [],
+    "related": [
+      "amor",
+      "euro",
+      "walnut",
+      "valencia-ab"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "breeza",
+    "modelName": "Breeza - 48\" Elegant Fan with LED",
+    "fanSize": "48 Inches",
+    "fanFinish": "Matte Black",
+    "variations": [],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "raffle-wt",
+    "modelName": "Raffle – 53″ Modern Ceiling Fan with Remote Control",
+    "fanSize": "53 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "raffle-blk",
+      "raffle-wooden"
+    ],
+    "related": [
+      "elegant-wt",
+      "falcon-black",
+      "harrier-wt",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "raffle-blk",
+    "modelName": "Raffle – 53″ Modern Ceiling Fan with Remote Control",
+    "fanSize": "53 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "raffle-wt",
+      "raffle-wooden"
+    ],
+    "related": [
+      "elegant-blk",
+      "falcon-white",
+      "harrier-blk",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "raffle-wooden",
+    "modelName": "Raffle – 53″ Modern Ceiling Fan with Remote Control",
+    "fanSize": "53 Inch",
+    "fanFinish": "Wooden Finish",
+    "variations": [
+      "raffle-wt",
+      "raffle-blk"
+    ],
+    "related": [
+      "elegant-blk",
+      "falcon-white",
+      "harrier-blk",
+      "columbia-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "grace",
+    "modelName": "Grace – 52″ Crystal Fan with Openable Blades",
+    "fanSize": "52 Inch",
+    "fanFinish": "Gunmetal Finish",
+    "variations": [
+      "exclusive"
+    ],
+    "related": [
+      "tulip",
+      "bloom"
+    ],
+    "category": "Openable Blade Fans"
+  },
+  {
+    "urlCode": "exclusive",
+    "modelName": "Exclusive – 52″ Crystal Fan with Openable Blades",
+    "fanSize": "52 Inch",
+    "fanFinish": "Chrome Finish",
+    "variations": [
+      "grace"
+    ],
+    "related": [
+      "tulip",
+      "bloom"
+    ],
+    "category": "Openable Blade Fans"
+  },
+  {
+    "urlCode": "tulip",
+    "modelName": "Tulip - 42″ Fan with Openable Blades",
+    "fanSize": "42 Inch",
+    "fanFinish": "Gunmetal Finish",
+    "variations": [
+      "bloom"
+    ],
+    "related": [
+      "exclusive",
+      "grace"
+    ],
+    "category": "Openable Blade Fans"
+  },
+  {
+    "urlCode": "bloom",
+    "modelName": "Bloom - 42″ Fan with Openable Blades",
+    "fanSize": "42 Inch",
+    "fanFinish": "Chrome Finish",
+    "variations": [
+      "tulip"
+    ],
+    "related": [
+      "exclusive",
+      "grace"
+    ],
+    "category": "Openable Blade Fans"
+  },
+  {
+    "urlCode": "merc-x-gold",
+    "modelName": "  Merc – 56″ Crystal Chandelier Fan",
+    "fanSize": "56 Inch",
+    "fanFinish": "French Gold",
+    "variations": [
+      "merc-x-chrome"
+    ],
+    "related": [
+      "merc-chrome",
+      "merc-gold",
+      "rolex",
+      "emerald",
+      "jasper",
+      "ruby"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "merc-gold",
+    "modelName": "  Merc – 56″ Crystal Chandelier Fan",
+    "fanSize": "56 Inch",
+    "fanFinish": "French Gold",
+    "variations": [
+      "merc-chrome"
+    ],
+    "related": [
+      "merc-x-chrome",
+      "merc-x-gold",
+      "rolex",
+      "emerald",
+      "jasper",
+      "ruby"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "rolex",
+    "modelName": "Rolex – 52″ Luxury Ceiling Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "French Gold",
+    "variations": [],
+    "related": [
+      "merc-x-chrome",
+      "merc-x-gold",
+      "emerald",
+      "jasper",
+      "ruby"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "merc-x-chrome",
+    "modelName": "  Merc – 56″ Crystal Chandelier Fan",
+    "fanSize": "56 Inch",
+    "fanFinish": "French Gold",
+    "variations": [
+      "merc-x-gold"
+    ],
+    "related": [
+      "merc-chrome",
+      "merc-gold",
+      "rolex",
+      "emerald",
+      "jasper",
+      "ruby"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "merc-chrome",
+    "modelName": "  Merc – 56″ Crystal Chandelier Fan",
+    "fanSize": "56 Inch",
+    "fanFinish": "French Gold",
+    "variations": [
+      "merc-gold"
+    ],
+    "related": [
+      "merc-x-chrome",
+      "merc-x-gold",
+      "rolex",
+      "emerald",
+      "jasper",
+      "ruby"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "emerald",
+    "modelName": "Emerald – 44″ Modern Ceiling Fan",
+    "fanSize": "44 Inch",
+    "fanFinish": "Chrome Finish",
+    "variations": [],
+    "related": [
+      "ruby",
+      "merc-x-chrome",
+      "rolex",
+      "jasper"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "daffodil",
+    "modelName": "Daffodil – 42″ Retractable Blade Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Dark Wood Finish",
+    "variations": [
+      "daffodil-plus"
+    ],
+    "related": [
+      "cooper",
+      "monalisa",
+      "dianna",
+      "regal",
+      "sparkle",
+      "dahlia"
+    ],
+    "category": "Retractable Blade Fans"
+  },
+  {
+    "urlCode": "cooper",
+    "modelName": "Cooper – 42″ Retractable Blade Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Antique Brass",
+    "variations": [
+      "daffodil-plus"
+    ],
+    "related": [
+      "daffodil",
+      "monalisa",
+      "dianna",
+      "regal",
+      "sparkle",
+      "dahlia"
+    ],
+    "category": "Retractable Blade Fans"
+  },
+  {
+    "urlCode": "monalisa",
+    "modelName": "Monalisa– 42″ Stained Glass Tiffany Design Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Stained Glass Finish",
+    "variations": [],
+    "related": [
+      "daffodil-plus",
+      "cooper",
+      "dianna",
+      "regal",
+      "sparkle",
+      "dahlia"
+    ],
+    "category": "Retractable Blade Fans"
+  },
+  {
+    "urlCode": "ruby",
+    "modelName": "Ruby – 42″ Crystal Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "French Gold",
+    "variations": [],
+    "related": [
+      "emerald",
+      "merc-x-chrome",
+      "rolex",
+      "jasper"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "jasper",
+    "modelName": "Jasper – 42″ Modern Ceiling Fan with Crystal Chandelier",
+    "fanSize": "42 Inch",
+    "fanFinish": "French Gold and Black",
+    "variations": [],
+    "related": [
+      "ruby",
+      "emerald",
+      "merc-x-chrome",
+      "rolex"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "platinum-chrome",
+    "modelName": "Platinum – 42″ Crystal Chandelier Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Chrome Finish",
+    "variations": [
+      "platinum-gold"
+    ],
+    "related": [
+      "emerald",
+      "merc-x-chrome",
+      "rolex",
+      "jasper"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "platinum-gold",
+    "modelName": "Platinum – 42″ Crystal Chandelier Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "French Gold Finish",
+    "variations": [
+      "platinum-chrome"
+    ],
+    "related": [
+      "emerald",
+      "merc-x-chrome",
+      "rolex",
+      "jasper"
+    ],
+    "category": "Crystal Fans"
+  },
+  {
+    "urlCode": "dianna",
+    "modelName": "Dianna – 42″ Retractable Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Matte Black and Gold",
+    "variations": [
+      "jasmine"
+    ],
+    "related": [
+      "dahlia",
+      "cooper",
+      "monalisa",
+      "regal",
+      "sparkle"
+    ],
+    "category": "Retractable Blade Fans"
+  },
+  {
+    "urlCode": "jasmine",
+    "modelName": "Dianna – 42″ Retractable Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Matte White and Gold",
+    "variations": [
+      "dianna"
+    ],
+    "related": [
+      "dahlia",
+      "cooper",
+      "monalisa",
+      "regal",
+      "sparkle"
+    ],
+    "category": "Retractable Blade Fans"
+  },
+  {
+    "urlCode": "regal",
+    "modelName": "Regal  – 42″ Retractable Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Matte White",
+    "variations": [],
+    "related": [
+      "dahlia",
+      "cooper",
+      "monalisa",
+      "jasmine",
+      "sparkle",
+      "dianna"
+    ],
+    "category": "Retractable Blade Fans"
+  }, 
+  {
+    "urlCode": "dahlia",
+    "modelName": "Dahlia – 42″ Retractable Kids Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Matte White and Light Blue",
+    "variations": [],
+    "related": [
+      "regal",
+      "jasmine",
+      "windmill-blue",
+      "galaxy",
+      "kidzy",
+      "rainbow"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "sparkle",
+    "modelName": "Sparkle  – 42″ Retractable Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Dark Brown ",
+    "variations": [],
+    "related": [
+      "cooper",
+      "dahlia",
+      "monalisa",
+      "jasmine",
+      "sparkle",
+      "dianna"
+    ],
+    "category": "Retractable Blade Fans"
+  },
+  {
+    "urlCode": "bronze",
+    "modelName": "Bronze  – 42″ Retractable Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Bronze Finish",
+    "variations": [],
+    "related": [
+      "sparkle",
+      "cooper",
+      "monalisa",
+      "jasmine",
+      "sparkle",
+      "dianna"
+    ],
+    "category": "Retractable Blade Fans"
+  },
+  {
+    "urlCode": "jupiter",
+    "modelName": "Jupiter  – 42″ Retractable Ceiling Fan",
+    "fanSize": "42 Inch",
+    "fanFinish": "Antique Brass",
+    "variations": [],
+    "related": [
+      "bronze",
+      "sparkle",
+      "cooper",
+      "monalisa",
+      "jasmine",
+      "sparkle",
+      "dianna"
+    ],
+    "category": "Retractable Blade Fans"
+  },
+  {
+    "urlCode": "rainbow",
+    "modelName": "Rainbow – 36″ Small Kids Designer Fan",
+    "fanSize": "36 Inch",
+    "fanFinish": "Light Blue",
+    "variations": [],
+    "related": [
+      "dahlia",
+      "galaxy",
+      "kidzy",
+      "aviator"
+    ],
+    "category": "Kids Fans Collection"
+  },
+  {
+    "urlCode": "rebel-premium",
+    "modelName": "Rebel Premium – 14″ Grid Fan With LED Light",
+    "fanSize": "14 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "rebel-plus"
+    ],
+    "related": [
+      "nova-mini",
+      "nova"
+    ],
+    "category": "Grid Ceiling Fans"
+  },
+  {
+    "urlCode": "rebel-plus",
+    "modelName": "Rebel Plus – 16″ Grid Fan With LED Light",
+    "fanSize": "16 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "rebel-premium"
+    ],
+    "related": [
+      "nova-mini",
+      "nova"
+    ],
+    "category": "Grid Ceiling Fans"
+  },
+  {
+    "urlCode": "gardenia",
+    "modelName": "Gardenia - 52\" Outdoor Fan with Remote",
+    "fanSize": "52 Inch",
+    "fanFinish": "Hand Painted Patina Finish",
+    "variations": [],
+    "related": [
+      "classic-light",
+      "classic-dark",
+      "classic-wall"
+    ],
+    "category": "Outdoor Fans"
+  },
+  {
+    "urlCode": "eiffel-wt",
+    "modelName": "Eiffel – 60° Oscillating Tower Fan 15 ft Air Delivery",
+    "fanSize": "50\" Height",
+    "fanFinish": "White Finish",
+    "variations": [
+      "eiffel-blk",
+      "eiffel-wooden"
+    ],
+    "related": [
+      "standie",
+      "matrix-gg",
+      "desky"
+    ],
+    "category": "Standing Fans"
+  },
+  {
+    "urlCode": "eiffel-blk",
+    "modelName": "Eiffel – 60° Oscillating Tower Fan 15 ft Air Delivery",
+    "fanSize": "50\" Height",
+    "fanFinish": "Black Finish",
+    "variations": [
+      "eiffel-wt",
+      "eiffel-wooden"
+    ],
+    "related": [
+      "standie",
+      "matrix-gg",
+      "desky"
+    ],
+    "category": "Standing Fans"
+  },
+  {
+    "urlCode": "eiffel-wooden",
+    "modelName": "Eiffel – 60° Oscillating Tower Fan 15 ft Air Delivery",
+    "fanSize": "50\" Height",
+    "fanFinish": "Wooden Finish",
+    "variations": [
+      "eiffel-wt",
+      "eiffel-wt"
+    ],
+    "related": [
+      "standie",
+      "matrix-gg",
+      "desky"
+    ],
+    "category": "Standing Fans"
+  },
+  {
+    "urlCode": "standie",
+    "modelName": "Standie – 90° Oscillating Tower Fan with Smart Sensor",
+    "fanSize": "46\" Height",
+    "fanFinish": "Matte White and Silver",
+    "variations": [],
+    "related": [
+      "matrix-gg",
+      "desky",
+      "eiffel-wt",
+      "eiffel-wooden"
+    ],
+    "category": "Standing Fans"
+  },
+  {
+    "urlCode": "maybach-wooden",
+    "modelName": "Maybach - 52\" Unique Toroidal Blade Ceiling Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Ashwood Finish",
+    "variations": [
+      "maybach-wt"
+    ],
+    "related": [
+      "columbia-wt",
+      "swift-plus-wt",
+      "luker-walnut",
+      "sensation-wt",
+      "spectra-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "maybach-wt",
+    "modelName": "Maybach - 52\" Unique Toroidal Blade Ceiling Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "maybach-wooden"
+    ],
+    "related": [
+      "columbia-wt",
+      "swift-plus-wt",
+      "luker-walnut",
+      "sensation-wt",
+      "spectra-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "columbia-wt",
+    "modelName": "Columbia - 52\" Elegant Designer Ceiling Fan",
+    "fanSize": "52 Inches",
+    "fanFinish": "Matte White",
+    "variations": [
+      "columbia-blk"
+    ],
+    "related": [
+      "swift-plus-wt",
+      "luker-walnut",
+      "sensation-wt",
+      "spectra-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "columbia-blk",
+    "modelName": "Columbia - 52\" Elegant Designer Ceiling Fan",
+    "fanSize": "52 Inches",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "columbia-wt"
+    ],
+    "related": [
+      "swift-plus-blk",
+      "luker-walnut",
+      "sensation-blk",
+      "amber-blk"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "windsor",
+    "modelName": "Windsor - 15\" Vintage Wall Fan with Oscillation",
+    "fanSize": "15 Inch",
+    "fanFinish": "Antique Brass - Walnut",
+    "variations": [],
+    "related": [
+      "volley-plus",
+      "volley-wt",
+      "opus-wall",
+      "artic-wall"
+    ],
+    "category": "Wall Mounted Fans"
+  },
+  {
+    "urlCode": "arum",
+    "modelName": "Arum - 22\" Elegant Modern Chandelier Fan",
+    "fanSize": "22 Inch",
+    "fanFinish": "French Gold",
+    "variations": [],
+    "related": [
+      "ruby",
+      "merc-gold",
+      "rolex",
+      "emerald",
+      "jasper"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "zinnia",
+    "modelName": "Zinnia - 52\" Retractable Blades Fandelier",
+    "fanSize": "52 Inch",
+    "fanFinish": "French Gold",
+    "variations": [],
+    "related": [
+      "arum",
+      "ruby",
+      "merc-gold",
+      "rolex",
+      "emerald",
+      "jasper"
+    ],
+    "category": "Fandelier Fans"
+  },
+  {
+    "urlCode": "swan-plus",
+    "modelName": "Swan plus - 52\" Vintage Antique Brass Fan with LED",
+    "fanSize": "52 Inch",
+    "fanFinish": "Antique Brass - Walnut",
+    "variations": [
+      "swan"
+    ],
+    "related": [
+      "orion",
+      "walnut",
+      "vortex-wooden",
+      "valencia-ab"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "swan",
+    "modelName": "Swan - 52\" Vintage Antique Brass Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Antique Brass - Walnut",
+    "variations": [
+      "swan-plus"
+    ],
+    "related": [
+      "orion-plus",
+      "walnut",
+      "vortex-wooden",
+      "valencia-ab"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "vortex-wooden",
+    "modelName": "Vortex - 52\" Vintage Classic Wooden Finish Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Antique Brass - Walnut",
+    "variations": [
+      "vortex-wt",
+      "vortex-blk"
+    ],
+    "related": [
+      "orion-plus",
+      "walnut",
+      "valencia-ab"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "vortex-wt",
+    "modelName": "Vortex - 52\" Vintage Classic Wooden Finish Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Matte White - Chrome",
+    "variations": [
+      "vortex-wooden",
+      "vortex-blk"
+    ],
+    "related": [
+      "orion-plus",
+      "walnut",
+      "valencia-ab"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "vortex-blk",
+    "modelName": "Vortex - 52\" Vintage Classic Wooden Finish Fan",
+    "fanSize": "52 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "vortex-wooden",
+      "vortex-wt"
+    ],
+    "related": [
+      "swan-plus-black",
+      "swift-plus-wt",
+      "columbia-wt",
+      "spectra-wt"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "orion-plus",
+    "modelName": "Orion plus -60\" Vintage Fan with LED",
+    "fanSize": "60 Inch",
+    "fanFinish": "Antique Brass - Walnut",
+    "variations": [
+      "orion"
+    ],
+    "related": [
+      "walnut",
+      "valencia-ab",
+      "swan-plus-wt"
+    ],
+    "category": "Colossal Fans"
+  },
+  {
+    "urlCode": "orion",
+    "modelName": "Orion -60\" Vintage Fan with Remote",
+    "fanSize": "60 Inch",
+    "fanFinish": "Antique Brass - Walnut",
+    "variations": [
+      "orion-plus"
+    ],
+    "related": [
+      "walnut",
+      "valencia-ab",
+      "swan-plus-wt"
+    ],
+    "category": "Vintage Classic Wooden Ceiling Fans"
+  },
+  {
+    "urlCode": "swift-wt",
+    "modelName": "Swift- 60\" Elegant Modern Designer Fan",
+    "fanSize": "60 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "swift-blk",
+      "swift-plus-blk",
+      "swift-plus-wt"
+    ],
+    "related": [
+      "columbia-wt",
+      "spectra-wt",
+      "amber-wt",
+      "falcon-white"
+    ],
+    "category": "Colossal Fans"
+  },
+  {
+    "urlCode": "swift-plus-wt",
+    "modelName": "Swift- 60\" Elegant Modern Designer Fan with LED",
+    "fanSize": "60 Inch",
+    "fanFinish": "Matte White",
+    "variations": [
+      "swift-blk",
+      "swift-plus-blk",
+      "swift-wt"
+    ],
+    "related": [
+      "columbia-wt",
+      "spectra-wt",
+      "amber-wt",
+      "falcon-white"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "swift-plus-blk",
+    "modelName": "Swift - 60\" Elegant Modern Designer Fan with LED",
+    "fanSize": "60 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "swift-blk",
+      "swift-plus-wt",
+      "swift-wt"
+    ],
+    "related": [
+      "columbia-blk",
+      "spectra-blk",
+      "amber-wt",
+      "falcon-black"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "swift-blk",
+    "modelName": "Swift- 60\" Elegant Modern Designer Fan with LED",
+    "fanSize": "60 Inch",
+    "fanFinish": "Matte Black",
+    "variations": [
+      "swift-plus-blk",
+      "swift-plus-wt",
+      "swift-wt"
+    ],
+    "related": [
+      "columbia-blk",
+      "spectra-blk",
+      "amber-wt",
+      "falcon-black"
+    ],
+    "category": "Modern & Contemporary Fans"
+  }
+]

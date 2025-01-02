@@ -1,0 +1,62 @@
+[
+  {
+    "urlCode": "innovation",
+    "modelName": "Innovation – 29″ Bladeless Ceiling Fan",
+    "fanSize": "29 Inches",
+    "fanFinish": "Beechwood Finish",
+    "variations": [
+      "innovation-blk"
+    ],
+    "related": [
+      "nova",
+      "nova-mini",
+      "zephyre"
+    ],
+    "category": "Modern & Contemporary Fans"
+  },
+  {
+    "urlCode": "nissar",
+    "modelName": "Nissar – 86″ inch Large Twin Ceiling Fan",
+    "fanSize": "2 x 36 inches",
+    "fanFinish": "Ashwood Finish Special Wooden Blades",
+    "variations": [],
+    "related": [
+      "dual",
+      "trio",
+      "artic-wall",
+      "artic",
+      "opus-wall",
+      "opus"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "dual",
+    "modelName": "Dual – 52″ Twin Modern Wooden Decorative Fan",
+    "fanSize": "2 x 52 Inches",
+    "fanFinish": "Handcrafted Wooden Blades",
+    "variations": [],
+    "related": [
+      "nissar",
+      "artic-wall",
+      "trio"
+    ],
+    "category": "Modern Wooden Fans"
+  },
+  {
+    "urlCode": "trio-gm",
+    "modelName": "Trio – 38″ With 360° Rotating Ceiling Fan",
+    "fanSize": "38 Inches",
+    "fanFinish": "Gunmetal & Darkwood",
+    "variations": [
+      "trio-ss"
+    ],
+    "related": [
+      "dual",
+      "tornado",
+      "opus",
+      "opus-wall"
+    ],
+    "category": "Modern Wooden Fans"
+  }
+]
