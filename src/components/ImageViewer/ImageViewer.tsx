@@ -9,10 +9,9 @@ interface ImageViewerProps {
 export function ImageViewer({ fanName }: ImageViewerProps) {
   const [loading, setLoading] = useState(true);
   const [imageError, setImageError] = useState(false);
-  const [imageSize, setImageSize] = useState({ width: 0, height: 0 });
-  const { scale, position, onTouchStart, onTouchMove, onTouchEnd } = useTouch(0.25); // Start at 1/4 size
+  const { scale, position, onTouchStart, onTouchMove, onTouchEnd } = useTouch();
 
-  // Preload image and get its dimensions
+  // Preload image
   useEffect(() => {
     setLoading(true);
     setImageError(false);
@@ -22,10 +21,6 @@ export function ImageViewer({ fanName }: ImageViewerProps) {
     
     img.onload = () => {
       setLoading(false);
-      setImageSize({
-        width: img.width,
-        height: img.height
-      });
     };
     
     img.onerror = () => {
@@ -38,6 +33,7 @@ export function ImageViewer({ fanName }: ImageViewerProps) {
       img.onerror = null;
     };
   }, [fanName]);
+ 
 
   return (
     <div 
@@ -65,12 +61,11 @@ export function ImageViewer({ fanName }: ImageViewerProps) {
         <img
           src={`/images/${fanName}.png`}
           alt={`${fanName} fan`}
-          className="pointer-events-none absolute left-1/2 top-1/2 origin-center transition-transform duration-75"
+          className={`pointer-events-none absolute left-1/2 top-1/2 origin-center transition-transform ${
+            loading ? 'opacity-0' : 'opacity-100'
+          }`}
           style={{
-            width: imageSize.width * 0.25, // 1/4th of original size
-            height: imageSize.height * 0.25,
             transform: `translate(-50%, -50%) translate(${position.x}px, ${position.y}px) scale(${scale})`,
-            opacity: loading ? 0 : 1,
           }}
         />
       )}

@@ -5,23 +5,13 @@ interface TouchState {
   position: { x: number; y: number };
 }
 
-interface TouchInfo {
-  distance: number | null;
-  position: { x: number; y: number } | null;
-  startScale: number;
-}
-
-export function useTouch(initialScale = 1, minScale = 0.1, maxScale = 2) {
+export function useTouch(initialScale = 1) {
   const [state, setState] = useState<TouchState>({
     scale: initialScale,
     position: { x: 0, y: 0 },
   });
-  
-  const [touchInfo, setTouchInfo] = useState<TouchInfo>({
-    distance: null,
-    position: null,
-    startScale: initialScale,
-  });
+  const [initialDistance, setInitialDistance] = useState<number | null>(null);
+  const [initialPosition, setInitialPosition] = useState<{ x: number; y: number } | null>(null);
 
   const getDistance = (touches: TouchList) => {
     return Math.hypot(
@@ -32,54 +22,42 @@ export function useTouch(initialScale = 1, minScale = 0.1, maxScale = 2) {
 
   const onTouchStart = useCallback((event: React.TouchEvent) => {
     if (event.touches.length === 2) {
-      setTouchInfo(prev => ({
-        ...prev,
-        distance: getDistance(event.touches),
-        startScale: state.scale,
-      }));
+      setInitialDistance(getDistance(event.touches));
     } else if (event.touches.length === 1) {
-      setTouchInfo(prev => ({
-        ...prev,
-        position: {
-          x: event.touches[0].clientX - state.position.x,
-          y: event.touches[0].clientY - state.position.y,
-        },
-      }));
+      setInitialPosition({
+        x: event.touches[0].clientX - state.position.x,
+        y: event.touches[0].clientY - state.position.y,
+      });
     }
-  }, [state.position, state.scale]);
+  }, [state.position]);
 
   const onTouchMove = useCallback((event: React.TouchEvent) => {
     event.preventDefault();
     
-    if (event.touches.length === 2 && touchInfo.distance !== null) {
+    if (event.touches.length === 2 && initialDistance) {
       const distance = getDistance(event.touches);
-      const newScale = Math.min(
-        Math.max(touchInfo.startScale * (distance / touchInfo.distance), minScale),
-        maxScale
-      );
+      const scale = Math.min(Math.max(state.scale * (distance / initialDistance), 0.5), 3);
       
       setState(prev => ({
         ...prev,
-        scale: newScale,
+        scale,
       }));
-    } else if (event.touches.length === 1 && touchInfo.position) {
+      setInitialDistance(distance);
+    } else if (event.touches.length === 1 && initialPosition) {
       setState(prev => ({
         ...prev,
         position: {
-          x: event.touches[0].clientX - touchInfo.position!.x,
-          y: event.touches[0].clientY - touchInfo.position!.y,
+          x: event.touches[0].clientX - initialPosition.x,
+          y: event.touches[0].clientY - initialPosition.y,
         },
       }));
     }
-  }, [touchInfo, minScale, maxScale]);
+  }, [initialDistance, initialPosition, state.scale]);
 
   const onTouchEnd = useCallback(() => {
-    setTouchInfo({
-      distance: null,
-      position: null,
-      startScale: state.scale,
-    });
-  }, [state.scale]);
+    setInitialDistance(null);
+    setInitialPosition(null);
+  }, []);
 
   return {
     scale: state.scale,

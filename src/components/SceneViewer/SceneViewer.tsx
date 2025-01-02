@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronUp, Maximize, Minimize, Image } from 'lucide-react';
+import { ChevronUp, Maximize, Minimize } from 'lucide-react';
 import { useParams, Navigate, useNavigate } from 'react-router-dom';
 import { Toolbar } from '../Toolbar/Toolbar';
 import { ImageViewer } from '../ImageViewer/ImageViewer';
@@ -11,7 +11,6 @@ export function SceneViewer() {
   const { fanName } = useParams<{ fanName: string }>();
   const [isToolbarOpen, setIsToolbarOpen] = useState(false);
   const [cameraError, setCameraError] = useState<Error | null>(null);
-  const [selectedBackground, setSelectedBackground] = useState<string | null>(null);
   const { fanData, loading, error } = useFanData();
   const { isFullscreen, toggleFullscreen } = useFullscreen();
   const navigate = useNavigate();
@@ -24,25 +23,6 @@ export function SceneViewer() {
       }
     }
   }, [fanName, fanData, loading, error, navigate]);
-
-  useEffect(() => {
-    const backgrounds = localStorage.getItem('userBackgrounds');
-    if (backgrounds) {
-      const parsedBackgrounds = JSON.parse(backgrounds);
-      if (parsedBackgrounds.length > 0) {
-        setSelectedBackground(parsedBackgrounds[0].url);
-      }
-    }
-  }, []);
-
-  const handleBackgroundChange = () => {
-    const backgrounds = JSON.parse(localStorage.getItem('userBackgrounds') || '[]');
-    if (backgrounds.length > 0) {
-      const currentIndex = backgrounds.findIndex((bg: { url: string }) => bg.url === selectedBackground);
-      const nextIndex = (currentIndex + 1) % backgrounds.length;
-      setSelectedBackground(backgrounds[nextIndex].url);
-    }
-  };
 
   if (loading) {
     return (
@@ -58,10 +38,10 @@ export function SceneViewer() {
 
   return (
     <div className="relative h-screen w-full overflow-hidden bg-gray-900">
-      {!cameraError && <CameraView onError={setCameraError} customBackground={selectedBackground} />}
+      {!cameraError && <CameraView onError={setCameraError} />}
       {fanName && <ImageViewer fanName={fanName} />}
       
-      <div className="fixed bottom-4 left-4 z-50 flex gap-2">
+      <div className="fixed bottom-4 left-4 z-50">
         <button
           onClick={toggleFullscreen}
           className="rounded-full bg-white/10 p-3 backdrop-blur-sm transition-all hover:bg-white/20"
@@ -72,14 +52,6 @@ export function SceneViewer() {
             <Maximize className="h-6 w-6 text-white" />
           )}
         </button>
-        {localStorage.getItem('userBackgrounds') && (
-          <button
-            onClick={handleBackgroundChange}
-            className="rounded-full bg-white/10 p-3 backdrop-blur-sm transition-all hover:bg-white/20"
-          >
-            <Image className="h-6 w-6 text-white" />
-          </button>
-        )}
       </div>
 
       <button

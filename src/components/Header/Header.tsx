@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Search, Image } from 'lucide-react';
+import { Menu, X, Search, Upload } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useFanData } from '../../hooks/useFanData';
 
@@ -27,6 +27,14 @@ export function Header() {
         </Link>
 
         <div className="flex items-center gap-4">
+          <Link
+            to="/try-your-own"
+            className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm text-white transition-colors hover:bg-white/20"
+          >
+            <Upload size={16} />
+            Try Your Own
+          </Link>
+
           <form onSubmit={handleSearch} className="relative">
             <input
               type="search"
@@ -52,7 +60,7 @@ export function Header() {
         </div>
       </div>
 
-      {/* Overlay */}
+      {/* Rest of the header component remains the same */}
       {isMenuOpen && (
         <div 
           className="fixed inset-0 bg-black/50 backdrop-blur-sm"
@@ -60,14 +68,13 @@ export function Header() {
         />
       )}
 
-      {/* Menu */}
       <nav
         className={`fixed top-0 right-0 h-full w-80 transform bg-gray-900 shadow-xl transition-transform duration-300 ${
           isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <div className="flex h-16 items-center justify-between border-b border-gray-800 px-6">
-          <span className="text-lg font-semibold text-white">Menu</span>
+          <span className="text-lg font-semibold text-white">Categories</span>
           <button
             onClick={() => setIsMenuOpen(false)}
             className="text-gray-400 hover:text-white transition-colors"
@@ -84,16 +91,7 @@ export function Header() {
             >
               All Fans
             </Link>
-            <Link
-              to="/backgrounds"
-              className="flex items-center gap-2 py-2 text-gray-300 hover:text-white transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              <Image size={16} />
-              <span>Background Manager</span>
-            </Link>
             <div className="mt-4 space-y-2">
-              <h3 className="text-sm font-semibold uppercase text-gray-500">Categories</h3>
               {categories.map((category) => (
                 <Link
                   key={category}

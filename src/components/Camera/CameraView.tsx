@@ -1,20 +1,20 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 interface CameraViewProps {
   onError?: (error: Error) => void;
-  customBackground?: string;
 }
 
-export function CameraView({ onError, customBackground }: CameraViewProps) {
+export function CameraView({ onError }: CameraViewProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [usingCamera, setUsingCamera] = useState(!customBackground);
 
   useEffect(() => {
-    if (!customBackground && navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
       navigator.mediaDevices
         .getUserMedia({ 
           video: { 
             facingMode: "environment",
+            // width: { ideal: window.innerWidth },
+            // height: { ideal: window.innerHeight }
           } 
         })
         .then((stream) => {
@@ -35,20 +35,7 @@ export function CameraView({ onError, customBackground }: CameraViewProps) {
         tracks.forEach(track => track.stop());
       }
     };
-  }, [onError, customBackground]);
-
-  if (customBackground) {
-    return (
-      <div 
-        className="fixed inset-0 h-full w-full"
-        style={{
-          backgroundImage: `url(${customBackground})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }}
-      />
-    );
-  }
+  }, [onError]);
 
   return (
     <video
